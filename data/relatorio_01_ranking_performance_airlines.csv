@@ -1,0 +1,15 @@
+Ranking,Código,Companhia Aérea,Total Voos,Taxa Pontualidade (%),Atraso Médio (min),Taxa Cancelamento (%),Taxa Desvio (%),Score Performance
+1,HA,Hawaiian Airlines Inc.,76272,89.2,2.02,0.22,0.08,15.02
+2,AS,Alaska Airlines Inc.,172521,87.11,-0.97,0.39,0.24,15.82
+3,DL,Delta Air Lines Inc.,875881,86.45,0.19,0.44,0.2,18.14
+4,VX,Virgin America,61903,80.61,4.69,0.86,0.2,32.68
+5,WN,Southwest Airlines Co.,1261855,80.44,4.31,1.27,0.27,36.57
+6,AA,American Airlines Inc.,725984,80.95,3.39,1.5,0.29,37.44
+7,UA,United Air Lines Inc.,515723,78.81,5.35,1.27,0.27,39.24
+8,OO,Skywest Airlines Inc.,588353,80.39,5.73,1.69,0.27,42.24
+9,US,US Airways Inc.,198715,80.16,3.62,2.05,0.21,43.96
+10,F9,Frontier Airlines Inc.,90836,74.02,12.4,0.65,0.17,44.88
+11,B6,JetBlue Airways,267048,76.68,6.55,1.6,0.27,45.87
+12,EV,Atlantic Southeast Airlines,571977,78.57,6.39,2.66,0.35,54.42
+13,NK,Spirit Air Lines,117379,69.88,14.2,1.71,0.16,61.42
+14,MQ,American Eagle Airlines Inc.,294632,74.73,6.11,5.1,0.28,82.38

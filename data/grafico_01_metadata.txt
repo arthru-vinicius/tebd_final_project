@@ -1,0 +1,28 @@
+GRÁFICO 1: TENDÊNCIA TEMPORAL DE ATRASOS AO LONGO DO ANO
+============================================================
+Data de Geração: 2025-07-13 20:13:54
+Dados Analisados: 5,819,079 voos
+Período: 12 meses de 2015
+
+METODOLOGIA DE VISUALIZAÇÃO:
+------------------------------
+• Gráfico de linha temporal com eixos duplos
+• Série principal: Atraso médio mensal (minutos)
+• Série secundária: Volume de voos (escala em milhares)
+• Área sombreada: Taxa de pontualidade (%)
+• Linha de referência: Meta de 80% de pontualidade
+
+DADOS DIMENSIONAIS UTILIZADOS:
+------------------------------
+• Tabela Fato: fact_flights
+• Dimensão: dim_date (agregação mensal)
+• Joins: date_key para enriquecimento temporal
+• Critério Pontualidade: Atraso ≤ 15 minutos
+
+INSIGHTS VISUAIS:
+------------------------------
+• Maior atraso: 9.4 min (June)
+• Menor atraso: -0.8 min (October)
+• Melhor pontualidade: 87.5% (October)
+• Pior pontualidade: 73.6% (February)
+• Maior volume: 520,718 voos (July)

@@ -1,0 +1,6 @@
+category,problem_type,cause_name,total_occurrences,avg_impact,severity_score,percentage,controllability
+Atraso: Aeronave Atrasada,Atraso,Aeronave Atrasada,556953,44.81873874456193,24961931.0,30.11,Controlável
+Atraso: Problemas da Companhia Aérea,Atraso,Problemas da Companhia Aérea,570022,35.389784955668375,20172956.0,30.81,Controlável
+Atraso: Sistema Aéreo Nacional,Atraso,Sistema Aéreo Nacional,564826,25.380846490777692,14335762.0,30.53,Não Controlável
+Atraso: Condições Meteorológicas,Atraso,Condições Meteorológicas,64716,47.90520118672353,3100233.0,3.5,Não Controlável
+Outros,Diversos,Causas Menores,93368,4.648966704936854,9069385.0,5.05,Não Controlável

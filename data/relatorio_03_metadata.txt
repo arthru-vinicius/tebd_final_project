@@ -1,0 +1,29 @@
+RELATÓRIO 3: SAZONALIDADE DETALHADA - PERFORMANCE MENSAL
+============================================================
+Data de Geração: 2025-07-13 20:13:29
+Voos Analisados: 5,819,079 voos
+Período Analisado: 12 meses de 2015
+
+METODOLOGIA:
+--------------------
+• Score de Criticidade = Atraso Médio + (Taxa Cancelamento × 10) + (100 - Taxa Pontualidade)
+• Voos Pontuais = Atraso ≤ 15 minutos
+• Análise Temporal = Agregação mensal de métricas
+
+MÉTRICAS CALCULADAS:
+--------------------
+• Volume Total de Voos por mês
+• Quantidade de Voos Pontuais
+• Quantidade de Voos Atrasados
+• Quantidade de Voos Cancelados
+• Atraso Médio na Chegada (minutos)
+• Principal Causa de Atraso por período
+• Score de Criticidade mensal
+
+ANÁLISE DE CAUSAS:
+--------------------
+• Sistema Aéreo Nacional
+• Questões de Segurança
+• Problemas da Companhia Aérea
+• Atrasos de Aeronave
+• Condições Meteorológicas

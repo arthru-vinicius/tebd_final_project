@@ -1,0 +1,41 @@
+GRÁFICO 2: PERFORMANCE POR COMPANHIA AÉREA
+==================================================
+Data de Geração: 2025-07-13 20:14:06
+Companhias Analisadas: 12
+Total de Voos: 5,680,904
+
+METODOLOGIA DE VISUALIZAÇÃO:
+------------------------------
+• Barras horizontais ordenadas por performance
+• Cores baseadas em categorias de performance
+• Anotações de score e taxa de pontualidade
+• Linha de referência para média do setor
+• Destaque visual para top 3 e bottom 3
+
+DADOS DIMENSIONAIS UTILIZADOS:
+------------------------------
+• Tabela Fato: fact_flights
+• Dimensão: dim_airline
+• Joins: airline_key para enriquecimento
+• Agregação: Métricas por companhia aérea
+
+CÁLCULO DO SCORE DE PERFORMANCE:
+------------------------------
+• Pontualidade (40%): Taxa de voos ≤ 15min atraso
+• Atraso Médio (35%): Inverso do atraso normalizado
+• Cancelamentos (25%): Inverso da taxa de cancelamento
+
+CATEGORIAS DE PERFORMANCE:
+------------------------------
+• Excelente: Score ≥ 80 (Verde)
+• Boa: Score 70-79 (Laranja)
+• Regular: Score 60-69 (Laranja Escuro)
+• Ruim: Score < 60 (Vermelho)
+
+INSIGHTS PRINCIPAIS:
+------------------------------
+• Melhor Performer: AS (98.2)
+• Pior Performer: NK (48.7)
+• Score Médio: 72.7
+• Pontualidade Média: 79.0%
+• Diferença Top-Bottom: 49.5 pontos

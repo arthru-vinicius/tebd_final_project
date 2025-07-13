@@ -1,0 +1,10 @@
+Ranking,Tipo de Problema,Causa,Quantidade de Ocorrências,Percentual do Total (%),Impacto Médio (min),Meses Críticos
+1,Atraso,Aeronave Atrasada,556953,9.571,44.8,"June, July, December"
+2,Atraso,Problemas da Companhia Aérea,570022,9.796,35.4,"June, July, December"
+3,Atraso,Sistema Aéreo Nacional,564826,9.706,25.4,"June, January, February"
+4,Cancelamento,Weather,48851,0.839,0.0,"2, 1, 3"
+5,Atraso,Condições Meteorológicas,64716,1.112,47.9,"February, June, January"
+6,Cancelamento,Airline/Carrier,25262,0.434,0.0,"6, 1, 2"
+7,Cancelamento,National Air System,15749,0.271,0.0,"2, 6, 1"
+8,Atraso,Questões de Segurança,3484,0.06,23.2,"December, August, July"
+9,Cancelamento,Security,22,0.0,0.0,"11, 3, 8"

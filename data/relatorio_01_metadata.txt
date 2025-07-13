@@ -1,0 +1,20 @@
+RELATÓRIO 1: RANKING DE PERFORMANCE POR COMPANHIA AÉREA
+============================================================
+Data de Geração: 2025-07-13 20:12:49
+Registros Analisados: 5,819,079 voos
+Companhias Avaliadas: 14
+
+METODOLOGIA:
+--------------------
+• Performance Score = Atraso Médio + (Taxa Cancelamento × 10) + (100 - Taxa Pontualidade)
+• Voos Pontuais = Atraso ≤ 15 minutos
+• Ranking = Ordenação crescente por Performance Score (menor = melhor)
+
+MÉTRICAS CALCULADAS:
+--------------------
+• Total de Voos por companhia
+• Taxa de Pontualidade (%)
+• Atraso Médio na Chegada (minutos)
+• Taxa de Cancelamento (%)
+• Taxa de Desvio (%)
+• Score de Performance (consolidado)

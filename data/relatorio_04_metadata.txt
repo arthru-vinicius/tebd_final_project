@@ -1,0 +1,35 @@
+RELATÓRIO 4: ANÁLISE DETALHADA DE CAUSAS DE CANCELAMENTO E ATRASO
+============================================================
+Data de Geração: 2025-07-13 20:13:41
+Problemas Analisados: 1,849,885 ocorrências
+Tipos de Causas Identificadas: 9
+
+METODOLOGIA:
+--------------------
+• Severidade = Cancelamentos × 100 + Atrasos × Impacto Médio
+• Cancelamentos = Impacto total na experiência
+• Atrasos = Impacto proporcional à duração
+
+CATEGORIAS ANALISADAS:
+--------------------
+• Cancelamentos por Causa DOT
+• Atrasos do Sistema Aéreo Nacional
+• Atrasos por Questões de Segurança
+• Atrasos da Companhia Aérea
+• Atrasos de Aeronave
+• Atrasos por Condições Meteorológicas
+
+MÉTRICAS CALCULADAS:
+--------------------
+• Quantidade total de ocorrências
+• Percentual do total de voos
+• Impacto médio em minutos
+• Meses com maior incidência
+• Score de severidade consolidado
+
+APLICAÇÕES:
+--------------------
+• Priorização de ações corretivas
+• Planejamento de investimentos
+• Estratégias de mitigação sazonal
+• Melhoria de processos operacionais

@@ -1,0 +1,6 @@
+category,problem_type,cause_name,total_occurrences,avg_impact,severity_score,percentage
+Cancelamento: Weather,Cancelamento,Weather,48851,0.0,4885100.0,2.64
+Cancelamento: Airline/Carrier,Cancelamento,Airline/Carrier,25262,0.0,2526200.0,1.37
+Cancelamento: National Air System,Cancelamento,National Air System,15749,0.0,1574900.0,0.85
+Atraso: Questões de Segurança,Atraso,Questões de Segurança,3484,23.24483352468427,80985.0,0.19
+Cancelamento: Security,Cancelamento,Security,22,0.0,2200.0,0.0

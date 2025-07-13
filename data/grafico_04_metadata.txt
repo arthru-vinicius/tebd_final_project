@@ -1,0 +1,62 @@
+GRÁFICO 4: DISTRIBUIÇÃO DE CAUSAS DE CANCELAMENTO E ATRASO
+============================================================
+Data de Geração: 2025-07-13 20:14:40
+Total de Problemas: 1,849,885
+Categorias Principais: 5
+Causas Menores Agrupadas: 5
+
+METODOLOGIA DE VISUALIZAÇÃO:
+------------------------------
+• Gráfico de pizza com fatias proporcionais
+• Explosão das 3 principais causas
+• Cores diferenciadas por tipo de problema
+• Agrupamento de causas menores (<3%)
+• Gráfico secundário agrupado por tipo
+
+DADOS DIMENSIONAIS UTILIZADOS:
+------------------------------
+• Tabela Fato: fact_flights
+• Dimensão: dim_cancellation_reason
+• Joins: cancellation_key para enriquecimento
+• Agregação: Contagem por tipo de causa
+• Consolidação: Cancelamentos + Atrasos
+
+CATEGORIZAÇÃO DE PROBLEMAS:
+------------------------------
+• Cancelamentos por Causa DOT:
+  - Airline/Carrier (Companhia Aérea)
+  - Weather (Condições Meteorológicas)
+  - National Air System (Sistema Aéreo)
+  - Security (Questões de Segurança)
+• Atrasos por Tipo Específico:
+  - Sistema Aéreo Nacional
+  - Questões de Segurança
+  - Problemas da Companhia Aérea
+  - Aeronave Atrasada
+  - Condições Meteorológicas
+
+CRITÉRIOS DE AGRUPAMENTO:
+------------------------------
+• Threshold para Categoria Principal: ≥ 3%
+• Causas Menores: Agrupadas em 'Outros'
+• Ordenação: Por score de severidade
+• Peso Cancelamentos: Ocorrências × 100
+• Peso Atrasos: Ocorrências × Impacto Médio
+
+INSIGHTS PRINCIPAIS:
+------------------------------
+• Principal Causa: Aeronave Atrasada (30.1%)
+• Maior Impacto: 556,953 ocorrências
+• Causas Controláveis: 60.9%
+• Causas Não Controláveis: 39.1%
+• Total Atrasos: 1,756,517
+• Impacto Médio Atrasos: 38.4 min
+
+APLICAÇÕES:
+------------------------------
+• Priorização de ações corretivas
+• Alocação de recursos de mitigação
+• Estratégias de melhoria operacional
+• Comunicação executiva de desafios
+• Benchmarking de causas controláveis
+• Planejamento de investimentos

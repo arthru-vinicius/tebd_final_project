@@ -1,0 +1,21 @@
+Ranking,Origem,Cidade Origem,Estado Origem,Destino,Cidade Destino,Estado Destino,Total Voos,Atraso Médio (min),Taxa Cancelamento (%),Distância (milhas),Companhias Operadoras,Score Criticidade
+1,ASE,Aspen,CO,DFW,Dallas-Fort Worth,TX,335,31.26,16.72,701.0,MQ,282.06
+2,LGA,New York,NY,IAD,Chantilly,VA,205,21.7,16.1,229.0,EV,263.2
+3,IAD,Chantilly,VA,LGA,New York,NY,205,17.67,15.12,229.0,EV,244.47
+4,ORF,Norfolk,VA,LGA,New York,NY,402,15.83,15.17,296.0,"EV, MQ",243.38
+5,LGA,New York,NY,SDF,Louisville,KY,297,24.22,13.47,659.0,"EV, MQ",226.27
+6,LGA,New York,NY,MHT,Manchester,NH,140,15.12,13.57,195.0,"DL, EV",218.67
+7,SDF,Louisville,KY,LGA,New York,NY,301,8.76,13.95,659.0,"DL, EV, MQ",218.01
+8,PIT,Pittsburgh,PA,LGA,New York,NY,301,8.78,13.62,335.0,"AA, DL, EV, MQ",213.08
+9,JFK,New York,NY,ORF,Norfolk,VA,126,8.54,13.49,290.0,MQ,210.89
+10,LGA,New York,NY,ORF,Norfolk,VA,515,8.72,13.2,296.0,"EV, MQ",206.72
+11,ORF,Norfolk,VA,JFK,New York,NY,126,3.44,13.49,290.0,MQ,205.79
+12,CVG,Covington,KY,LGA,New York,NY,108,10.16,12.04,585.0,"DL, EV",190.76
+13,DCA,Arlington,VA,JFK,New York,NY,996,18.56,11.45,213.0,"AA, DL, MQ",190.31
+14,LGA,New York,NY,OMA,Omaha,NE,138,10.78,10.87,1148.0,"DL, EV",173.83
+15,MHT,Manchester,NH,LGA,New York,NY,136,18.4,10.29,195.0,"DL, EV",172.75
+16,RDU,Raleigh,NC,LGA,New York,NY,1878,15.36,10.49,431.0,"DL, EV, MQ",172.71
+17,HPN,White Plains,NY,DTW,Detroit,MI,146,17.95,10.27,505.0,EV,172.0
+18,LGA,New York,NY,GRR,Grand Rapids,MI,224,10.89,10.71,618.0,EV,171.54
+19,LGA,New York,NY,BHM,Birmingham,AL,490,14.92,10.41,866.0,EV,171.07
+20,CHO,Charlottesville,VA,LGA,New York,NY,396,13.74,10.35,305.0,"EV, MQ",168.99

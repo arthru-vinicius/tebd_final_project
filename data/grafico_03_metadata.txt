@@ -1,0 +1,53 @@
+GRÁFICO 3: MAPA DE CALOR - ATRASOS POR DIA VS HORA
+=======================================================
+Data de Geração: 2025-07-13 20:14:27
+Voos Analisados: 5,729,195
+Dimensões da Matriz: 7 dias x 24 horas
+
+METODOLOGIA DE VISUALIZAÇÃO:
+------------------------------
+• Mapa de calor bidimensional (dia x hora)
+• Escala de cores divergente centrada em zero
+• Anotações numéricas em cada célula
+• Mapa secundário com volume de operações
+• Identificação visual de padrões críticos
+
+DADOS DIMENSIONAIS UTILIZADOS:
+------------------------------
+• Tabela Fato: fact_flights
+• Dimensão: dim_date (dia da semana)
+• Extração: Hora de scheduled_departure
+• Agregação: Atraso médio por [dia, hora]
+• Filtros: Voos não cancelados com horários válidos
+
+PROCESSAMENTO TEMPORAL:
+------------------------------
+• Formato de Entrada: HHMM (ex: 1530 = 15:30)
+• Extração de Hora: Primeiros 2 dígitos
+• Validação: Horas entre 0-23
+• Granularidade: Intervalos de 1 hora
+
+INSIGHTS PRINCIPAIS:
+------------------------------
+• Atraso Médio Geral: 4.4 minutos
+• Maior Atraso: 12.9 min
+• Menor Atraso: -4.7 min
+• Hora Mais Crítica: 19:00
+• Dia Mais Crítico: Monday
+• Hora Mais Movimentada: 06:00
+• Dia Mais Movimentado: Thursday
+
+PADRÕES IDENTIFICADOS:
+------------------------------
+• Dias Úteis vs Fins de Semana: 4.2 vs 3.1 min
+• Manhã (06-12h): 0.2 min
+• Tarde (12-18h): 6.4 min
+• Noite (18-24h): 7.7 min
+
+APLICAÇÕES:
+------------------------------
+• Planejamento de slots de voo
+• Alocação de recursos por horário
+• Estratégias de pricing dinâmico
+• Otimização de cronogramas
+• Identificação de janelas eficientes

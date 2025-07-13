@@ -1,0 +1,13 @@
+airline_key,total_flights,avg_arrival_delay,median_arrival_delay,avg_departure_delay,total_cancelled,total_diverted,total_distance,avg_distance,avg_flight_time,on_time_flights,on_time_rate,cancellation_rate,diversion_rate,performance_score,airline_code,airline_name,performance_category
+7,172521,-0.97,-5.0,1.78,669,413,206579765,1197.42,178.22,150277,87.11,0.39,0.24,98.19,AS,Alaska Airlines Inc.,Excelente
+10,875881,0.19,-7.0,7.34,3824,1782,747671138,853.62,139.57,757163,86.45,0.44,0.2,94.96,DL,Delta Air Lines Inc.,Excelente
+2,725984,3.39,-6.0,8.77,10919,2130,755995614,1041.34,163.44,587697,80.95,1.5,0.29,79.68,AA,American Airlines Inc.,Boa
+9,1261855,4.31,-4.0,10.45,16043,3409,934670301,740.71,119.33,1015086,80.44,1.27,0.27,78.51,WN,Southwest Airlines Co.,Boa
+3,198715,3.62,-3.0,6.02,4067,425,181129490,911.5,148.96,159293,80.16,2.05,0.21,75.98,US,US Airways Inc.,Boa
+1,515723,5.35,-5.0,14.26,6573,1388,655765355,1271.55,187.8,406459,78.81,1.27,0.27,75.38,UA,United Air Lines Inc.,Boa
+6,588353,5.73,-3.0,7.68,9960,1579,292277393,496.77,98.75,472964,80.39,1.69,0.27,73.06,OO,Skywest Airlines Inc.,Boa
+5,267048,6.55,-4.0,11.33,4276,730,283651757,1062.18,164.69,204785,76.68,1.6,0.27,69.97,B6,JetBlue Airways,Regular
+11,571977,6.39,-3.0,8.49,15231,1994,264397363,462.25,94.2,449421,78.57,2.66,0.35,65.75,EV,Atlantic Southeast Airlines,Regular
+4,90836,12.4,-1.0,13.27,588,158,87857929,967.21,153.78,67239,74.02,0.65,0.17,60.14,F9,Frontier Airlines Inc.,Regular
+13,294632,6.11,-4.0,9.63,15025,816,124427633,422.32,87.62,220168,74.73,5.1,0.28,52.18,MQ,American Eagle Airlines Inc.,Ruim
+8,117379,14.2,0.0,15.68,2004,182,115649669,985.27,153.59,82027,69.88,1.71,0.16,48.7,NK,Spirit Air Lines,Ruim
